@@ -21,12 +21,12 @@ class LoginPage extends StatelessWidget {
       return;
     }
 
-    final result = await authService.login(email, password);
+    final user = await authService.login(email, password);
 
-    if (result.containsKey('error')) {
-      _showError(context, result['error']);
+    if (user == null) {
+      _showError(context, 'Email o contrasenya incorrectes.');
     } else {
-      context.go('/');
+      context.go('/'); // Navega a la pantalla principal
     }
   }
 
