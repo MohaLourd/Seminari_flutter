@@ -24,3 +24,8 @@ Algunes webs amb material de disseny per Flutter:
 [3] https://docs.flutter.dev/ui/widgets/layout
 [4] https://m3.material.io/
 [5] https://pub.dev/packages/http
+
+
+
+URL VIDEO: https://drive.google.com/file/d/1e-9K0ksU1oDASxrI4wri56QDXyq2xwoz/view?usp=sharing
+Ref: videos pasados por los compañeros, mi compañero encargado de hacer el seminario y la IA.
